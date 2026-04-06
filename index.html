@@ -1107,32 +1107,188 @@ tr:hover td { background:rgba(0,45,92,.02); }
     <div class="sub-content active" id="revenue-contracts">
       <div class="content">
         <div class="kpi-grid">
-          <div class="kpi-card navy"><div class="kpi-label">US Ownership Split</div><div class="kpi-value">61 / 30 / 9</div><div class="kpi-sub">Interstate pipelines / LDCs / Independents (% of WG capacity)</div></div>
+          <div class="kpi-card navy"><div class="kpi-label">US Ownership Split</div><div class="kpi-value">53 / 22 / 25</div><div class="kpi-sub">Pipeline cos / LDCs / Independents (% of WG capacity; AGA/EIA 2023)</div></div>
           <div class="kpi-card orange"><div class="kpi-label">FERC Jurisdictional</div><div class="kpi-value">>50%</div><div class="kpi-sub">Of US capacity under FERC ratemaking; remainder state-regulated or exempt</div></div>
           <div class="kpi-card green"><div class="kpi-label">Salt Cavern Cycles</div><div class="kpi-value">5–12x/yr</div><div class="kpi-sub">vs. depleted 1x/yr — cycling multiplies revenue per bcm</div></div>
           <div class="kpi-card teal"><div class="kpi-label">EU Access Split</div><div class="kpi-value">11 rTPA / 7 nTPA</div><div class="kpi-sub">Member States; regulated vs. negotiated access regimes</div></div>
         </div>
 
-        <div class="section-title">Contract Taxonomy — What Storage Operators Actually Sell</div>
+        <div class="section-title">US Storage Ownership — Who Owns, Who Contracts, Who Benefits</div>
         <div class="card-grid cols-1">
           <div class="card">
-            <div class="card-title"><span class="icon">📋</span> Storage Service Types (US Framework)</div>
+            <div class="card-title"><span class="icon">🏢</span> Ownership vs. Contractual Control — The Post-Order 636 Reality</div>
             <div class="table-wrap"><table>
-              <thead><tr><th>Service</th><th>Description</th><th>Fee Structure</th><th>Customer</th><th>Risk Profile</th></tr></thead>
+              <thead><tr><th>Metric</th><th>Pipeline Cos (Interstate + Intrastate)</th><th>LDCs</th><th>Independents</th><th>Source</th></tr></thead>
               <tbody>
-                <tr><td><strong>Firm Storage</strong></td><td>Guaranteed capacity + deliverability for contract term</td><td>Monthly reservation fee ($/MMBtu/mo) + commodity charge</td><td>LDCs, utilities, LNG shippers</td><td>Revenue assured; operator bears volume risk only</td></tr>
-                <tr><td><strong>Interruptible</strong></td><td>Capacity available only when not used by firm customers</td><td>Usage-based; no reservation fee</td><td>Marketers, traders</td><td>Revenue volatile; depends on excess capacity</td></tr>
-                <tr><td><strong>No-Notice</strong></td><td>Right to inject/withdraw outside daily nomination cycle without penalties</td><td>Premium over firm rates; highest-value service</td><td>LDCs with unpredictable load</td><td>Highest revenue per unit; small volume</td></tr>
-                <tr><td><strong>Park & Loan</strong></td><td>Park = inject for short-term hold; Loan = borrow gas from storage</td><td>Seasonal spread-based fee + premium</td><td>Shippers, marketers</td><td>Margin depends on S-W spread</td></tr>
-                <tr><td><strong>Hub / Wheeling</strong></td><td>Title transfer, gas pooling, interconnect management</td><td>Per-transaction fee ($0.01–0.05/MMBtu)</td><td>All market participants</td><td>Low margin, high volume</td></tr>
-                <tr><td><strong>Virtual Storage</strong></td><td>Synthetic storage via financial contracts; no physical injection</td><td>Spread premium + notional-based fee</td><td>Financial participants</td><td>Financial derivative; mark-to-market risk</td></tr>
+                <tr><td><strong>% of WG Capacity Owned</strong></td><td>53%</td><td>22%</td><td>25%</td><td>AGA / EIA-191 (2023)</td></tr>
+                <tr><td><strong>% of Total Deliverability</strong></td><td>43%</td><td>24%</td><td>33%</td><td>AGA (Apr 2025)</td></tr>
+                <tr><td><strong>% of Capacity Contracted (by user type)</strong></td><td>Pipelines: 9%</td><td>Utilities: 60%</td><td>Marketers: 27%</td><td>FERC Index of Customers (Q1 2025)</td></tr>
+                <tr><td><strong>Older INGAA Benchmark</strong></td><td>Interstate only: 61%</td><td>30%</td><td>9%</td><td>INGAA Foundation Profile</td></tr>
               </tbody>
             </table></div>
             <div class="narrative-box">
-              <div class="narrative-label">Damodaran: The Revenue Mix Determines the Narrative</div>
-              <strong>A storage facility's revenue mix is its risk profile.</strong> A depleted reservoir selling 90% firm service to an LDC is a bond (stable, contracted, low upside). A Gulf Coast salt cavern selling 50% firm / 30% park-and-loan / 20% interruptible to LNG shippers and traders is a call option (volatile, high upside in crisis). Williams' Hartree portfolio is "highly contracted" (bond-like base) with market-rate pricing (option-like upside) — the most valuable combination.
+              <div class="narrative-label">The Ownership ≠ Control Paradox</div>
+              <strong>Pipeline companies own 53% of US working gas capacity but retain only ~13% for operational needs and no-notice service.</strong> The bulk is contracted to LDCs and marketers under FERC Order 636's open-access mandate. LDCs own 22% of capacity directly but control ~73% through ownership + pipeline contracts (OGJ) — making them the dominant force in US storage. Independents own 25% of WG capacity but command 33% of deliverability, reflecting their concentration in high-deliverability salt cavern facilities (Gulf Coast). This deliverability premium is why independent storage (Enstor, Hartree→Williams) commands 10× EBITDA multiples — the market pays for fast-cycle flexibility, not just volume. For PE: the growth opportunity is in the independent segment (25% → growing) as LNG exporters and power generators demand salt cavern flexibility that pipeline-bundled depleted reservoirs cannot provide.
             </div>
-            <div class="source">Source: <a href="https://www.ferc.gov/" target="_blank">FERC</a>; <a href="https://rbnenergy.com/" target="_blank">RBN Energy</a>; <a href="https://viewpoint.pwc.com/" target="_blank">PwC</a>; Tallgrass 10-Q</div>
+            <div class="source">Source: <a href="https://www.aga.org/" target="_blank">AGA Value of Storage (Apr 2025)</a>; <a href="https://www.eia.gov/naturalgas/storage/basics/" target="_blank">EIA Storage Basics</a>; <a href="https://ingaa.org/" target="_blank">INGAA Profile</a>; <a href="https://www.ogj.com/" target="_blank">OGJ</a>; FERC Index of Customers (Q1 2025)</div>
+          </div>
+        </div>
+
+        <div class="section-title">Storage Service Types — What Operators Actually Sell</div>
+        <div class="card-grid cols-1">
+          <div class="card">
+            <div class="card-title"><span class="icon">🔒</span> Firm Storage — "The Bond"</div>
+            <p style="font-size:.78rem;color:var(--text-secondary);line-height:1.6;margin-bottom:10px;">Guaranteed, non-interruptible right to inject, store, and withdraw a specified volume for the full contract term. The operator cannot curtail or reallocate this capacity. <strong>Take-or-pay:</strong> shipper pays the monthly reservation charge whether or not they use the capacity — ensuring the operator's base revenue regardless of weather or market conditions.</p>
+            <div class="stat-visual">
+              <div class="stat-visual-item" style="border-left:3px solid var(--green);">
+                <div class="sv-value">40–60%</div>
+                <div class="sv-label">Share of Operator Revenue</div>
+                <div class="sv-narrative">Stable, predictable, annuity-like</div>
+              </div>
+              <div class="stat-visual-item" style="border-left:3px solid var(--accent);">
+                <div class="sv-value">1–10 yrs</div>
+                <div class="sv-label">Contract Duration</div>
+                <div class="sv-narrative">Weighted avg ~3–5 yrs; some LDCs sign 10–20 yr</div>
+              </div>
+              <div class="stat-visual-item" style="border-left:3px solid var(--accent3);">
+                <div class="sv-value">~60%</div>
+                <div class="sv-label">of All Contracted Capacity</div>
+                <div class="sv-narrative">LDCs are the primary firm customers (FERC Index Q1 2025)</div>
+              </div>
+              <div class="stat-visual-item" style="border-left:3px solid var(--teal-dark);">
+                <div class="sv-value">$/Dth/mo</div>
+                <div class="sv-label">Fee: Reservation + Commodity</div>
+                <div class="sv-narrative">Max rates set by CoS or negotiated; 10–40% discount from max tariff is common</div>
+              </div>
+            </div>
+            <div class="narrative-box bull">
+              <div class="narrative-label">PE Implication</div>
+              Revenue assured under take-or-pay. Supports leverage (3.5–4.5× debt/EBITDA). Recontracting risk at maturity — stagger maturities so 15–20% roll annually. MBR authority allows uncapped pricing for qualifying facilities.
+            </div>
+          </div>
+        </div>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-title"><span class="icon">⚡</span> Interruptible — "The Spot Market"</div>
+            <p style="font-size:.78rem;color:var(--text-secondary);line-height:1.6;margin-bottom:10px;">Capacity available only when not being used by firm shippers. Operator can curtail at any time. <strong>No reservation charge</strong> — purely usage-based pricing. First-come, first-served allocation.</p>
+            <div class="stat-visual">
+              <div class="stat-visual-item" style="border-left:3px solid var(--accent3);">
+                <div class="sv-value">5–15%</div>
+                <div class="sv-label">Share of Revenue</div>
+                <div class="sv-narrative">Spikes during cold snaps and outages; near-zero in shoulder seasons</div>
+              </div>
+              <div class="stat-visual-item" style="border-left:3px solid var(--accent);">
+                <div class="sv-value">Day / Month</div>
+                <div class="sv-label">Duration</div>
+                <div class="sv-narrative">No long-term commitment from either party</div>
+              </div>
+            </div>
+            <p style="font-size:.72rem;color:var(--text-muted);margin-top:6px;"><strong>FERC:</strong> Rates must be ≤ 100% of max firm rate. Operators must offer interruptible on available capacity (Order 636). <strong>Customers:</strong> Marketers, traders, producers. <strong>PE:</strong> Model as upside only — don't rely in base case.</p>
+          </div>
+          <div class="card">
+            <div class="card-title"><span class="icon">🚨</span> No-Notice — "The Insurance Premium"</div>
+            <p style="font-size:.78rem;color:var(--text-secondary);line-height:1.6;margin-bottom:10px;">Right to inject or withdraw <strong>at any time without prior nomination or penalty</strong>. Operator must maintain dedicated standby inventory and deliverability at all times — an expensive obligation that justifies the premium.</p>
+            <div class="stat-visual">
+              <div class="stat-visual-item" style="border-left:3px solid #c0392b;">
+                <div class="sv-value">1.5–3×</div>
+                <div class="sv-label">Premium Over Firm</div>
+                <div class="sv-narrative">Highest $/unit service in the entire storage market</div>
+              </div>
+              <div class="stat-visual-item" style="border-left:3px solid var(--accent);">
+                <div class="sv-value"><10%</div>
+                <div class="sv-label">of WG Capacity</div>
+                <div class="sv-narrative">Small volume, but most recession-proof revenue</div>
+              </div>
+            </div>
+            <p style="font-size:.72rem;color:var(--text-muted);margin-top:6px;"><strong>FERC:</strong> Pipelines retain ~13% of their 53% ownership specifically for no-notice + operational needs (INGAA). <strong>Customers:</strong> LDCs with weather-driven load swings, hospitals, gas-fired power plants needing instant ramp. <strong>PE:</strong> LDCs will never cut no-notice — it's their last line of defense against curtailment. Price-insensitive, capacity-limited.</p>
+          </div>
+        </div>
+        <div class="card-grid cols-1">
+          <div class="card">
+            <div class="card-title"><span class="icon">🔄</span> Park & Loan — "The Call Option"</div>
+            <div class="flow-row">
+              <div class="flow-step" style="border-color:var(--green);">
+                <div class="step-num green">P</div>
+                <h5>Park</h5>
+                <p>Shipper delivers gas to operator for short-term hold (days to weeks). Retrieves later. Like a bank <strong>deposit</strong>.</p>
+              </div>
+              <div class="flow-arrow">⇄</div>
+              <div class="flow-step" style="border-color:var(--accent3);">
+                <div class="step-num orange">L</div>
+                <h5>Loan</h5>
+                <p>Operator advances gas to shipper now. Shipper repays with physical gas later. Like a bank <strong>loan</strong>.</p>
+              </div>
+            </div>
+            <div class="stat-visual">
+              <div class="stat-visual-item" style="border-left:3px solid var(--accent3);">
+                <div class="sv-value">10–30%</div>
+                <div class="sv-label">of Salt Cavern Revenue</div>
+                <div class="sv-narrative">Negligible for depleted reservoirs — requires fast-cycle capability</div>
+              </div>
+              <div class="stat-visual-item" style="border-left:3px solid var(--accent);">
+                <div class="sv-value">Intraday → Weekly</div>
+                <div class="sv-label">Duration</div>
+                <div class="sv-narrative">Very short-term; rarely longer than one injection season</div>
+              </div>
+              <div class="stat-visual-item" style="border-left:3px solid var(--green);">
+                <div class="sv-value">Spread-Linked</div>
+                <div class="sv-label">Fee Basis</div>
+                <div class="sv-narrative">Fees surge when spreads spike — the option value of immediate gas access rises</div>
+              </div>
+            </div>
+            <div class="narrative-box bear">
+              <div class="narrative-label">PE Implication: Why Salt Caverns Earn 3–5× Per bcm</div>
+              Revenue is zero in calm markets but explosive in volatility. Salt caverns derive 20–40% of revenue from park & loan + active optimization. Depleted reservoirs cannot physically offer this at scale (too slow to cycle). <strong>This single service type is the primary reason salt caverns command 3–5× the revenue per bcm of depleted reservoirs.</strong> Post-Order 636 innovation — pipelines now offer P&L to "find additional ways to use storage capacity under their control" (OGJ).
+            </div>
+          </div>
+        </div>
+        <div class="card-grid cols-1">
+          <div class="card">
+            <div class="card-title"><span class="icon">🌐</span> Hub / Wheeling / Virtual Storage — "The Network Effect"</div>
+            <div class="flow-row">
+              <div class="flow-step" style="border-color:var(--accent);">
+                <div class="step-num">H</div>
+                <h5>Hub Services</h5>
+                <p>Title transfer between buyers/sellers at a physical hub. Operator facilitates but doesn't buy/sell gas. ~35 major US hubs (INGAA).</p>
+                <div style="font-size:.62rem;color:var(--text-muted);margin-top:4px;">Fee: $0.01–0.05/MMBtu per transaction</div>
+              </div>
+              <div class="flow-arrow">+</div>
+              <div class="flow-step" style="border-color:var(--green);">
+                <div class="step-num green">W</div>
+                <h5>Wheeling</h5>
+                <p>Physical gas transfer between pipelines via storage manifold. Gas may not enter reservoir — passes through surface facilities.</p>
+                <div style="font-size:.62rem;color:var(--text-muted);margin-top:4px;">Fee: per-Dth throughput; volume-based</div>
+              </div>
+              <div class="flow-arrow">+</div>
+              <div class="flow-step" style="border-color:var(--accent3);">
+                <div class="step-num orange">V</div>
+                <h5>Virtual Storage</h5>
+                <p>Synthetic storage via financial contracts (swaps, options). No physical injection. Replicates inject/withdraw economics.</p>
+                <div style="font-size:.62rem;color:var(--text-muted);margin-top:4px;">Fee: spread premium + notional; M2M risk</div>
+              </div>
+            </div>
+            <div class="stat-visual">
+              <div class="stat-visual-item" style="border-left:3px solid var(--accent);">
+                <div class="sv-value">~35</div>
+                <div class="sv-label">Major US Market Hubs</div>
+                <div class="sv-narrative">Few existed before Order 636; most have onsite storage</div>
+              </div>
+              <div class="stat-visual-item" style="border-left:3px solid var(--green);">
+                <div class="sv-value">Interconnects = Value</div>
+                <div class="sv-label">Moat Metric</div>
+                <div class="sv-narrative">Henry Hub = global benchmark because of 13 pipeline connects, not volume</div>
+              </div>
+              <div class="stat-visual-item" style="border-left:3px solid var(--accent3);">
+                <div class="sv-value">Network Effect</div>
+                <div class="sv-label">Revenue Stickiness</div>
+                <div class="sv-narrative">Once a hub becomes dominant, participants locked in by liquidity</div>
+              </div>
+            </div>
+            <div class="narrative-box bull">
+              <div class="narrative-label">PE: Count the Interconnects, Not Just the Volume</div>
+              <strong>A 0.5 bcm facility with 15 interconnects may be worth more than a 2 bcm facility with 3</strong> — because hub revenue is recurring, low-cost, and grows with market activity. Storage operators increasingly market themselves as "hubs" rather than storage providers. Enstor's Katy Hub (14 interconnects incl. NGPL, Transco, TGP) is valuable as a hub, not just as a reservoir. Wheeling revenue scales linearly with interconnect count.
+            </div>
+            <div class="source">Source: <a href="https://www.aga.org/" target="_blank">AGA Value of Storage (Apr 2025)</a>; <a href="https://www.ferc.gov/" target="_blank">FERC</a>; <a href="https://ingaa.org/" target="_blank">INGAA</a>; <a href="https://www.ogj.com/" target="_blank">OGJ</a>; <a href="https://rbnenergy.com/" target="_blank">RBN Energy</a></div>
           </div>
         </div>
 
